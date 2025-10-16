@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Your Stay | Sunrise Stays</title>
+  <link rel="stylesheet" href="booking.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Sunrise<span>Stays</span></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#rooms">Rooms</a></li>
+        <li><a href="booking.html" class="active">Book</a></li>
+        <li><a href="index.html#offers">Offers</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Booking Hero -->
+  <section class="booking-hero">
+    <div class="overlay"></div>
+    <div class="booking-text">
+      <h1>Book Your Stay</h1>
+      <p>Plan your dream getaway with Sunrise Stays — luxury, comfort, and warmth await.</p>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section class="booking-form">
+    <h2>Reservation Details</h2>
+    <form action="#" method="post" class="form-container">
+      
+      <!-- Full Name -->
+      <div class="form-group full-width">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" placeholder="Enter your full name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="destination">Destination</label>
+        <select id="destination" required>
+          <option value="">Select Destination</option>
+          <option>Delhi – The Imperial Hotel</option>
+          <option>Mumbai – Sea Breeze Resort</option>
+          <option>Bengaluru – The Orchid Suites</option>
+          <option>Chennai – Bayview Palace</option>
+          <option>Kolkata – The Royal Heritage</option>
+          <option>Hyderabad – Pearl Grand Inn</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="checkin">Check-in Date</label>
+        <input type="date" id="checkin" required>
+      </div>
+
+      <div class="form-group">
+        <label for="checkout">Check-out Date</label>
+        <input type="date" id="checkout" required>
+      </div>
+
+      <div class="form-group">
+        <label for="guests">Guests</label>
+        <select id="guests" required>
+          <option>1 Guest</option>
+          <option>2 Guests</option>
+          <option>3 Guests</option>
+          <option>4+ Guests</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="room">Room Type</label>
+        <select id="room" required>
+          <option>Deluxe Suite</option>
+          <option>Executive Room</option>
+          <option>Family Suite</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn">Confirm Booking</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">Sunrise<span>Stays</span></div>
+      <p>Luxury redefined. Experience comfort like never before.</p>
+      <div class="socials">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2025 Sunrise Stays. All rights reserved.</p>
+  </footer>
+</body>
+</html>
